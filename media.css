@@ -1,0 +1,44 @@
+@media only screen and (min-width:255px) and (max-width:575px){
+    .contain {
+  background: linear-gradient(to right, #ed12c5, #2782b4);
+  width: 200px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+ 
+}
+input{
+    width: 100%;
+}
+.add-btn {
+  background-color: #4facfe;
+  color: white;
+  width: 100%;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  padding: 2px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.del-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 40px;
+  position: relative;
+  left: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+}
